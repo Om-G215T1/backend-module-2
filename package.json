@@ -1,0 +1,19 @@
+{
+  "name": "module2",
+  "version": "1.0.0",
+  "description": "This is module 2 lectures",
+  "license": "ISC",
+  "author": "Om",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
